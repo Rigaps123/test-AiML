@@ -36,8 +36,8 @@ min-height: 167px;
 		padding: 22px 15px 0 0
 	}
 	.image-inner{
-	padding-left: 20px;
-    width: 310px;
+	    padding-left: 3px;
+    width: 264px;
 	}
 	.inner-images1 img{
 	margin-top: 0px;
@@ -1525,6 +1525,15 @@ min-height: 167px;
 }
 
 @media only screen and (max-width:991px) {
+	.dropdown-img{
+		width: 30px;
+		  height: 30px;
+		  padding-left: 20px;
+		  margin-top: 5px;
+	  }
+	  .navbar-nav .dropdown-menu{
+		  padding-left:35px!important;
+	  }
 	.single-offer {
 		padding-left: 80px;
 	}
