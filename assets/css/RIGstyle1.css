@@ -1018,7 +1018,7 @@ html {
 	padding:0px 50px;
 }
 .align-items-lg-center {
-	margin:0px 20px;
+	margin:0px 50px;
     -ms-flex-align: center!important;
     -webkit-box-align: center!important;
     align-items: center!important;
@@ -1026,7 +1026,9 @@ html {
 .inner-space{
 	padding:20px 0px;
 }
-
+.inner-images1 img {
+  margin-top: 0px;
+}
 .image-inner{
 	padding-left:100px;
 	width:500px;
@@ -1037,7 +1039,7 @@ html {
     height: auto;
     position: relative;
     left: 100%;
-    bottom: 43px;
+    bottom: -65px;
 }
  /* about page */
  .page-title-content p{
@@ -1097,7 +1099,6 @@ html {
 }
 .inner-images1 img{
 	width:420px;
-	margin-top: -124px;
 }
 
 /* footer  */

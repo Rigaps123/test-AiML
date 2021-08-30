@@ -972,8 +972,8 @@ textarea.form-control {
 	color:#1dd3f8;
 }
 .rig-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item a {
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: lighter;
+    font-size: 13px;
     color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: all 0.5s;
@@ -1459,7 +1459,6 @@ textarea.form-control {
 	position: relative;
 	padding-left: 45px;
 	margin-bottom: 10px;
-	text-transform: capitalize;
 }
 
 .about-content ul li:last-child {
@@ -3343,7 +3342,7 @@ textarea.form-control {
 	position: relative;
 	z-index: 1;
 	padding-top: 175px;
-	padding-bottom: 150px;
+	padding-bottom: 130px;
 	background-color: #04063c;
 	overflow: hidden;
 	text-align: center

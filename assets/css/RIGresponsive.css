@@ -152,7 +152,8 @@ min-height: 167px;
 	}
 	.about-img {
 		margin-bottom: 30px;
-		text-align: center
+		text-align: center;
+		padding-top: 45px;
 	}
 	.choose-ue-area .col-8 {
 		-webkit-box-flex: 100%;
@@ -886,15 +887,21 @@ min-height: 167px;
 	.industries-area .industries-list-tab .tabs li a {
 		padding-right: 35px
 	}
+	.inner-images1 img {
+		margin-top: 0px;
+	}
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
 	html{
 		overflow-x:hidden;
 	}
+	.inner-images1 img {
+		margin-top: 0px;
+	}
 	.image-inner {
-     padding-left: 0px; 
-    width: 330px;
+    padding: 0px 10px;
+    width: 279px;
 	}
 	.inner-space1{
 	padding:20px 80px;
@@ -1258,7 +1265,7 @@ min-height: 167px;
 		padding-right: 15px
 	}
 	.single-offer {
-	min-height: 200px;
+	min-height: 256px;
 	}
 	.single-offer i {
 		position: unset;
@@ -1283,6 +1290,10 @@ min-height: 167px;
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
+	.image-inner {
+		padding-left: 84px;
+		width: 385px;
+	}
 	.rig-nav-style .navbar-area .top-nav nav .navbar-nav .nav-item a {
 		margin: 0 8px
 	}
