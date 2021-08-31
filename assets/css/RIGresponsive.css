@@ -1,5 +1,7 @@
 @media only screen and (max-width:478px) {
-	
+	.align-items-lg-center {
+		margin:0px 20px;
+	}
 .single-offer{
 min-height: 167px;
 }
@@ -1554,8 +1556,8 @@ min-height: 167px;
 	}
 	.mean-container .mean-bar {
 		background-color: #04063c;
-		-webkit-box-shadow: 0 0 15px #fff;
-		box-shadow: 0 0 15px #fff;
+		-webkit-box-shadow: 0 0 15px #00a7f5;
+		box-shadow: 0 0 15px #00a7f5;
 		padding: 0;
 		height: 65px
 	}
