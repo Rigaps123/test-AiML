@@ -21,16 +21,16 @@
 		
 		$(function () { 
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 1000) { 
+                if ($(this).scrollTop() > 600) { 
                     $('.logo img').attr('src','assets/img/new-logo.svg');
-                    $(".mobile-nav").css("background","#fff");
+                    $(".mean-bar").css("background","#fff");
                     $(".nav-link").css("color","#0d1028");
                     $(".active").css("color","#1dd3f8");
                     $(".dropdown-menu").css("background","#fff");
                 }
-                if ($(this).scrollTop() < 1000) { 
+                if ($(this).scrollTop() < 600) { 
                     $('.logo img').attr('src','assets/img/logo.svg');
-                    $(".mobile-nav").css("background","none");
+                    $(".mean-bar").css("background","none");
                     $(".nav-link").css("color","#fff");
                     $(".active").css("color","#1dd3f8");
                     $(".dropdown-menu").css("background","#0d1028");
